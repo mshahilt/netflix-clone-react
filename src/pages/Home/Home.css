@@ -1,0 +1,103 @@
+.hero {
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.hero-caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+    box-sizing: border-box; /* Ensure padding does not mess with layout */
+}
+.caption-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.hero-caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.hero-btns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.hero-btns .btn img {
+    width: 23px;
+}
+.hero-btns .btn {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.hero-btns .btn.dark-btn {
+    color: white;
+    background-color: #6d6d6ed3;
+    transition: background-color 0.3s ease;
+}
+.hero-btns .btn:hover {
+    background-color: #ffffffbf;
+}
+.hero-btns .btn.dark-btn:hover {
+    background-color: #6d6d6e66;
+}
+
+@media (max-width: 1024px) {
+    .hero-caption {
+        padding-left: 5%;
+    }
+    .caption-img {
+        width: 80%;
+        max-width: 100px; 
+    }
+    .hero-caption p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .hero-btns {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .hero-btns .btn {
+        padding: 10px 18px; 
+    }
+    .hero-btns .btn img {
+        width: 20px; 
+    }
+    .main-title-card {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero-caption {
+        display: flex;
+        padding-left: 3%;
+    }
+    .hero-caption p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .hero-btns .btn {
+        padding-right: 10px;
+        font-size: 14px; 
+    }
+    .flex-item{
+        max-width: 400px;
+    }
+}
