@@ -17,9 +17,16 @@ A fully responsive **Netflix Clone** built using **React**, **Firebase**, and th
 - **API**: The Movie Database (TMDB)
 
 ## Screenshots
+   **Sign In page**
 > ![Sign In page Screenshot](https://github.com/mshahilt/utility/blob/main/Netflix-Signin.png)
+
+   **Sign Up page**
 > ![Sign Up page Screenshot](https://github.com/mshahilt/utility/blob/main/Netflix-Signup.png)
+
+   **Home page**
 > ![Homepage Screenshot](https://github.com/mshahilt/utility/blob/main/Netflix-Home.png)
+
+   **Video player**
 > ![Video player Screenshot](https://github.com/mshahilt/utility/blob/main/Netflix-Player.png)
 
 ## Installation
